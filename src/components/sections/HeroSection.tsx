@@ -11,7 +11,7 @@ export default function HeroSection() {
         <img
           src="/images/hero-pharmacy.jpg"
           alt="Pharmacienne avec une tablette dans une pharmacie"
-          className="absolute inset-0 w-full h-full object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover object-[center_top]"
         />
 
         {/* Gradient overlay */}
@@ -38,7 +38,7 @@ export default function HeroSection() {
           <Reveal animation="fade-up" delay={240}>
             <Button
               onClick={() => navigate("/pharmacie-de-garde")}
-              className="w-fit bg-pharmaloc-teal hover:bg-pharmaloc-teal/90 text-white font-sora font-semibold text-base sm:text-lg px-6 py-3 h-auto rounded-lg shadow-md transition-all duration-200"
+              className="w-full sm:w-fit bg-pharmaloc-teal hover:bg-pharmaloc-teal/90 text-white font-sora font-semibold text-sm sm:text-base lg:text-lg px-6 py-3 h-auto rounded-lg shadow-md transition-all duration-200"
               aria-label="Trouver une pharmacie de garde près de moi"
             >
               Trouver une pharmacie près de moi
