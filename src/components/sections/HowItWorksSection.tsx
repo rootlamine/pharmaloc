@@ -75,7 +75,7 @@ export default function HowItWorksSection() {
             Comment ça fonctionne ?
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {steps.map((step, i) => (
             <Reveal key={step.step} animation="fade-up" delay={i * 120}>
               <StepCard {...step} isActive={step.step === 2} />

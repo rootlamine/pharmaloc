@@ -15,12 +15,12 @@ function ContactHero() {
       <div className="section-container max-w-3xl mx-auto">
         <div className="w-fit mx-auto text-center">
           <Reveal animation="fade-up">
-            <h1 className="font-montserrat font-bold text-white text-3xl sm:text-[48px] leading-tight mb-4 whitespace-nowrap">
+            <h1 className="font-montserrat font-bold text-white text-3xl sm:text-[40px] lg:text-[48px] leading-tight mb-4">
               Contactez-nous
             </h1>
           </Reveal>
           <Reveal animation="fade-up" delay={120}>
-            <p className="font-sora text-white text-base sm:text-[20px] whitespace-nowrap">
+            <p className="font-sora text-white text-sm sm:text-base lg:text-[20px] text-center">
               Une question, une suggestion ou besoin d'aide ? Notre équipe est à votre écoute.
             </p>
           </Reveal>
@@ -301,7 +301,7 @@ function OpeningHours() {
   return (
     <section className="section-container pb-14 lg:pb-20">
       <Reveal animation="fade-up">
-      <div className="bg-pharmaloc-dark rounded-[20px] shadow-md px-8 sm:px-16 py-10 max-w-[1035px] mx-auto">
+      <div className="bg-pharmaloc-dark rounded-[20px] shadow-md px-5 sm:px-10 lg:px-16 py-10 max-w-[1035px] mx-auto">
         <h2 className="font-montserrat font-bold text-white text-2xl sm:text-[36px] text-center mb-8">
           Horaires d'ouverture
         </h2>
@@ -366,7 +366,7 @@ function MapSection() {
       </h2>
       </Reveal>
       <Reveal animation="fade-up" delay={100}>
-      <div className="rounded-[20px] overflow-hidden shadow-[2px_10px_15px_1px_rgba(0,0,0,0.10)] h-[340px]">
+      <div className="rounded-[20px] overflow-hidden shadow-[2px_10px_15px_1px_rgba(0,0,0,0.10)] h-[220px] sm:h-[280px] lg:h-[340px]">
         <MapContainer
           center={MERMOZ}
           zoom={15}

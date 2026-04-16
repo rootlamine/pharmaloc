@@ -68,7 +68,7 @@ function WhoWeAre() {
             <img
               src="/images/doctor-tablet.jpg"
               alt="Médecin consultant une tablette dans un centre médical"
-              className="w-full h-[380px] lg:h-[500px] object-cover rounded-[20px] shadow-lg"
+              className="w-full h-[240px] sm:h-[320px] md:h-[380px] lg:h-[500px] object-cover rounded-[20px] shadow-lg"
             />
           </Reveal>
         </div>
@@ -117,7 +117,7 @@ function MissionVisionValues() {
   return (
     <section className="pb-16 lg:pb-20">
       <div className="section-container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {mvvCards.map((card, i) => (
             <Reveal key={card.title} animation="fade-up" delay={i * 120}>
               <MVVCard {...card} />
@@ -196,7 +196,7 @@ function WhyCrucial() {
             Pourquoi l'accès aux pharmacies de garde est crucial ?
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {crucialCards.map((card, i) => (
             <Reveal key={card.title} animation="fade-up" delay={i * 120}>
               <CrucialCard {...card} />
@@ -279,13 +279,13 @@ function JoinMission() {
           <Reveal animation="fade-up">
             <h2
               id="join-heading"
-              className="font-montserrat font-bold text-pharmaloc-dark text-3xl lg:text-[40px] leading-tight mb-5 whitespace-nowrap"
+              className="font-montserrat font-bold text-pharmaloc-dark text-2xl sm:text-3xl lg:text-[40px] leading-tight mb-5"
             >
               Rejoignez-nous dans notre mission
             </h2>
           </Reveal>
           <Reveal animation="fade-up" delay={120}>
-            <p className="font-montserrat font-medium text-[#1e1e1e] text-[18px] sm:text-[20px] mb-8 whitespace-nowrap">
+            <p className="font-montserrat font-medium text-[#1e1e1e] text-base sm:text-[18px] lg:text-[20px] mb-8">
               Ensemble, améliorons l'accès aux soins de santé au Sénégal.
             </p>
           </Reveal>

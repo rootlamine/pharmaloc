@@ -10,8 +10,8 @@ export default function CTASection() {
       aria-label="Appel à l'action"
     >
       <Reveal animation="fade-up">
-        <div className="bg-pharmaloc-dark rounded-[20px] px-8 sm:px-16 py-14 flex flex-col items-center text-center">
-          <h2 className="font-montserrat font-bold text-white text-2xl sm:text-3xl lg:text-[40px] leading-tight mb-5 whitespace-nowrap">
+        <div className="bg-pharmaloc-dark rounded-[20px] px-5 sm:px-10 lg:px-16 py-10 lg:py-14 flex flex-col items-center text-center">
+          <h2 className="font-montserrat font-bold text-white text-xl sm:text-2xl lg:text-[40px] leading-tight mb-5">
             Besoin d'une pharmacie maintenant ?
           </h2>
           <p className="font-montserrat text-white text-base sm:text-lg lg:text-[22px] font-normal leading-[28px] mb-8 max-w-xl">

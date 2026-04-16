@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Documentation privée (soutenance)
+SOUTENANCE.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

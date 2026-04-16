@@ -6,7 +6,7 @@ export default function HeroSection() {
   const navigate = useNavigate();
   return (
     <section className="section-container py-10" aria-label="Accueil">
-      <div className="relative rounded-[20px] overflow-hidden min-h-[480px] lg:min-h-[578px]">
+      <div className="relative rounded-[20px] overflow-hidden min-h-[360px] sm:min-h-[430px] lg:min-h-[578px]">
         {/* Background pharmacy image */}
         <img
           src="/images/hero-pharmacy.jpg"
@@ -24,7 +24,7 @@ export default function HeroSection() {
         />
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col justify-center h-full min-h-[480px] lg:min-h-[578px] px-8 sm:px-14 py-14 max-w-[640px]">
+        <div className="relative z-10 flex flex-col justify-center h-full min-h-[360px] sm:min-h-[430px] lg:min-h-[578px] px-5 sm:px-10 lg:px-14 py-10 max-w-[640px]">
           <Reveal animation="fade-up" delay={0}>
             <h1 className="font-montserrat font-bold text-white text-3xl sm:text-4xl lg:text-[50px] leading-tight mb-6">
               Trouver une pharmacie de garde en quelques secondes
