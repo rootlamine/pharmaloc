@@ -68,7 +68,7 @@ function WhoWeAre() {
             <img
               src="/images/doctor-tablet.jpg"
               alt="Médecin consultant une tablette dans un centre médical"
-              className="w-full h-[240px] sm:h-[320px] md:h-[380px] lg:h-[500px] object-cover rounded-[20px] shadow-lg"
+              className="w-full aspect-[4/3] sm:aspect-auto sm:h-[320px] md:h-[380px] lg:h-[500px] object-cover object-[center_top] rounded-[20px] shadow-lg"
             />
           </Reveal>
         </div>

@@ -44,9 +44,9 @@ function ContactCard({ icon, title, value, href }: ContactCardProps) {
       <div className="w-14 h-14 rounded-full bg-pharmaloc-teal flex items-center justify-center flex-shrink-0">
         {icon}
       </div>
-      <div>
-        <p className="font-sora font-semibold text-[#1e1e1e] text-[22px] leading-snug">{title}</p>
-        <p className="font-sora text-[#1e1e1e] text-[18px] mt-0.5">{value}</p>
+      <div className="min-w-0">
+        <p className="font-sora font-semibold text-[#1e1e1e] text-[18px] sm:text-[22px] leading-snug">{title}</p>
+        <p className="font-sora text-[#1e1e1e] text-[14px] sm:text-[18px] mt-0.5 break-all">{value}</p>
       </div>
     </div>
   );
