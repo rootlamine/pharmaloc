@@ -57,7 +57,7 @@ export default function TrustSection() {
             <img
               src="/images/doctor-patient.jpg"
               alt="Médecin avec un patient"
-              className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] object-cover rounded-[20px] shadow-lg"
+              className="w-full aspect-[4/3] sm:aspect-auto sm:h-[340px] md:h-[420px] lg:h-[520px] object-cover object-[center_top] rounded-[20px] shadow-lg"
             />
           </Reveal>
 
